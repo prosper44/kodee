@@ -75,10 +75,10 @@ const Main = () => {
         <p style={{fontSize:'5rem', color: '#bdbdbd', marginLeft:'7rem'}}>Our Projects</p>
         <div className='frames'>
           <div className='frame1'>
-            <div style={{background:'black', padding:'30px', width:'300px', height:'100px'}} >
-              <h1  style={{color:'white'}} >Sample<br/> Project</h1>
+            <div style={{background:'black', padding:'30px', width:'200px', height:'100px'}} >
+              <h1  style={{color:'white', fontSize:'12px'}} >Sample<br/> Project</h1>
               <div >
-                <button  >VIEW MORE</button>
+                <button  style={{fontSize:'10px', width:'100px', height:'20px', padding:'20px '}}  >VIEW MORE</button>
                
               </div>
           </div>
@@ -89,9 +89,9 @@ const Main = () => {
           </div>
 
           <div className='frame2'>
-            <img width='150px' height='275px'  src={frame3}  alt="" />
-            <img width='350px' src={frame4} alt="" />
-            <img  width='250px' height='175px'  src={frame5} alt="" />
+            <img width='100px' height='175px'  src={frame3}  alt="" />
+            <img width='250px' src={frame4} alt="" />
+            <img  width='150px' height='175px'  src={frame5} alt="" />
           </div>
         </div>
       </div>
