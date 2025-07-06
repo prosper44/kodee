@@ -75,7 +75,7 @@ const Main = () => {
         <p style={{fontSize:'5rem', color: '#bdbdbd', marginLeft:'7rem'}}>Our Projects</p>
         <div className='frames'>
           <div className='frame1'>
-            <div style={{background:'black', padding:'30px', width:'600px', height:'300px'}} >
+            <div style={{background:'black', padding:'30px', width:'300px', height:'100px'}} >
               <h1  style={{color:'white'}} >Sample<br/> Project</h1>
               <div >
                 <button  >VIEW MORE</button>
@@ -83,7 +83,7 @@ const Main = () => {
               </div>
           </div>
           <div >
-             <img width='400px' height='160px'  src={frame2} alt="" />
+             <img width='300px' height='160px'  src={frame2} alt="" />
           </div>
            
           </div>
