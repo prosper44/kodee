@@ -4,15 +4,15 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 1rem;
-  gap: 2rem;
+  gap: 5rem;
 }
 
 .prolorum {
-  margin-top: 200px;
+  margin-top: 100px;
   margin-left: 150px;
 }
 
-/* Typography */
+
 .project-label {
   font-size: clamp(2rem, 8vw, 5.5rem);
   line-height: 1.1;
@@ -27,14 +27,15 @@
   margin: 0;
 }
 
-/* Main image */
+
 .main-image {
   width: 100%;
   max-width: 1000px;
   height: auto;
+  align-items: right;
 }
 
-/* About section */
+
 .about-section {
   display: flex;
   flex-wrap: wrap;
@@ -90,7 +91,7 @@
   display: flex;
   justify-content: center;
   gap: 100px;
-  flex-wrap: wrap; /* allows items to wrap on smaller screens */
+  flex-wrap: wrap; 
 }
 
 .focus{
@@ -103,10 +104,10 @@
 .frame2 {
   display: flex;
   gap: 20px;
-  flex-wrap: wrap; /* allows items to wrap on smaller screens */
+  flex-wrap: wrap;
 }
 
-/* Keep .frame2 margin as is */
+
 .frame2 {
   margin-top: 30px;
 }
@@ -119,10 +120,10 @@
   font-size: large;
   background-color: #333333;
 
-  /* Remove fixed left margin */
+  
   margin-left: auto;
   margin-right: auto;
-  display: block; /* so margin auto can center it */
+  display: block; 
 }
 
 .btn{
@@ -133,9 +134,9 @@
   font-size: large;
   background-color: #333333;
 
-  /* Remove fixed left margin */
+ 
   margin-left: 12rem;
-  display: block; /* so margin auto can center it */
+  display: block; 
 }
 
 .contact-container {
@@ -144,7 +145,7 @@
   justify-content: center;
   align-items: flex-start;
   padding: 2rem;
-  flex-wrap: wrap; /* allow stacking on smaller screens */
+  flex-wrap: wrap; 
 }
 
 .contact-form {
@@ -194,7 +195,7 @@
   margin-top:5rem
 }
 
-/* Responsive stacking on small screens */
+
 @media (max-width: 768px) {
   .contact-container {
     flex-direction: column;
@@ -213,7 +214,7 @@
 }
 
 
-/* Optional: Right-align on large screens */
+
 @media (min-width: 1024px) {
   .lastbutton {
     margin-left: auto;
@@ -223,7 +224,6 @@
 
 
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .frame1,
   .frame2 {
@@ -234,7 +234,7 @@
   }
 
   .frame2 {
-    margin-top: 20px; /* optional: reduce top margin on small screens */
+    margin-top: 20px; 
   }
 }
 
@@ -244,17 +244,16 @@
     
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
   .ipsum {
     flex-direction: column;
     align-items: center;
-    gap: 30px; /* reduce gap on small screens */
+    gap: 30px; 
   }
 }
 
 
-/* Responsive breakpoints */
 @media (max-width: 768px) {
   .Lorum {
     flex-direction: column;

@@ -1,7 +1,7 @@
 .divss {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  
   gap: 70px;
   margin: 60px;
   flex-wrap: wrap;
