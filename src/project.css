@@ -1,5 +1,5 @@
 .img1,.img2,.img3{
-    width: 850px;
+    width: 450px;
 }
 
 button{
@@ -24,7 +24,7 @@ button{
  
 }
 
-/* Responsive: 3 columns at ≤768px */
+
 @media (max-width: 768px) {
  .img1,.img2,.img3{
     width: 250px;
@@ -43,7 +43,7 @@ button{
 }
 }
 
-/* Responsive: 1 column at ≤480px */
+
 @media (max-width: 480px) {
  .img1,.img2,.img3{
     width: 150px;
