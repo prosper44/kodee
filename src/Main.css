@@ -1,0 +1,280 @@
+.Lorum {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+  gap: 2rem;
+}
+
+.prolorum {
+  margin-top: 200px;
+  margin-left: 150px;
+}
+
+/* Typography */
+.project-label {
+  font-size: clamp(2rem, 8vw, 5.5rem);
+  line-height: 1.1;
+  color: #bdbdbd;
+  margin: 0;
+}
+
+.project-title {
+  font-size: clamp(2rem, 7vw, 5rem);
+  line-height: 1.1;
+  color: #333333;
+  margin: 0;
+}
+
+/* Main image */
+.main-image {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+
+/* About section */
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  padding: 2rem 1rem;
+}
+
+.image-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+
+.mt-20 {
+  margin-top: 20px;
+  
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.about-heading {
+  font-size: clamp(2rem, 8vw, 5rem);
+  color: #bdbdbd;
+}
+
+.about-paragraph {
+  font-size: 1rem;
+  color: #333333;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.read-more {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+.ipsum {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap; /* allows items to wrap on smaller screens */
+}
+
+.focus{
+    text-align: center;
+    font-size: 4rem;
+    color: #bdbdbd;
+}
+
+.frame1,
+.frame2 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* allows items to wrap on smaller screens */
+}
+
+/* Keep .frame2 margin as is */
+.frame2 {
+  margin-top: 30px;
+}
+
+.lastbutton {
+  padding: 40px 90px;
+  margin-top: 20px;
+  border: none;
+  color: #bdbdbd;
+  font-size: large;
+  background-color: #333333;
+
+  /* Remove fixed left margin */
+  margin-left: auto;
+  margin-right: auto;
+  display: block; /* so margin auto can center it */
+}
+
+.btn{
+     padding: 40px 90px;
+  margin-top: 20px;
+  border: none;
+  color: #bdbdbd;
+  font-size: large;
+  background-color: #333333;
+
+  /* Remove fixed left margin */
+  margin-left: 12rem;
+  display: block; /* so margin auto can center it */
+}
+
+.contact-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  flex-wrap: wrap; /* allow stacking on smaller screens */
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.required {
+  color: red;
+}
+
+.contact-image {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.contact-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top:5rem
+}
+
+/* Responsive stacking on small screens */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form,
+  .contact-image {
+    max-width: 100%;
+  }
+
+  .contact-image {
+    margin-top: 10rem;
+    
+  }
+}
+
+
+/* Optional: Right-align on large screens */
+@media (min-width: 1024px) {
+  .lastbutton {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .frame1,
+  .frame2 {
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 15px;
+  }
+
+  .frame2 {
+    margin-top: 20px; /* optional: reduce top margin on small screens */
+  }
+}
+
+
+.frames{
+    justify-items: center;
+    
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ipsum {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; /* reduce gap on small screens */
+  }
+}
+
+
+/* Responsive breakpoints */
+@media (max-width: 768px) {
+  .Lorum {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .prolorum {
+    margin-top: 50px;
+    margin-left: 0;
+  }
+
+  .about-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+}

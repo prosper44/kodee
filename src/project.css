@@ -1,0 +1,62 @@
+.img1,.img2,.img3{
+    width: 850px;
+}
+
+button{
+    padding: 30px 60px;
+    border: none;
+    background-color: white;
+}
+
+
+@media (max-width: 1024px) {
+ .img1,.img2,.img3{
+    width: 350px;
+
+}
+.p2{
+    font-size: 15px;
+}
+.p1{
+    font-size: 30px;
+}
+
+ 
+}
+
+/* Responsive: 3 columns at ≤768px */
+@media (max-width: 768px) {
+ .img1,.img2,.img3{
+    width: 250px;
+    height: 300px;
+}
+
+.p1{
+    font-size: 40px;
+}
+
+.img3{
+    height: 300px;
+}
+.text{
+    margin-top: -50px;
+}
+}
+
+/* Responsive: 1 column at ≤480px */
+@media (max-width: 480px) {
+ .img1,.img2,.img3{
+    width: 150px;
+}
+
+.text{
+    margin-top: -80px;
+}
+
+.p1{
+    font-size: 20px;
+}
+.img3{
+    height: 400px;
+}
+}
