@@ -83,15 +83,15 @@ const Main = () => {
               </div>
           </div>
           <div >
-             <img width='700px' height='360px'  src={frame2} alt="" />
+             <img width='400px' height='160px'  src={frame2} alt="" />
           </div>
            
           </div>
 
           <div className='frame2'>
-            <img width='350px' height='375px'  src={frame3}  alt="" />
-            <img width='650px' src={frame4} alt="" />
-            <img  width='450px' height='375px'  src={frame5} alt="" />
+            <img width='150px' height='275px'  src={frame3}  alt="" />
+            <img width='350px' src={frame4} alt="" />
+            <img  width='250px' height='175px'  src={frame5} alt="" />
           </div>
         </div>
       </div>
