@@ -1,4 +1,4 @@
-/* Container */
+
 .footer {
   background-color: #333333;
   color: white;
@@ -7,7 +7,7 @@
   margin-top: 40px;
 }
 
-/* Top section layout */
+
 .footer-top {
   display: flex;
   flex-wrap: wrap;
@@ -15,7 +15,7 @@
   gap: 30px;
 }
 
-/* Each section */
+
 .footer-section {
   flex: 1 1 200px;
   min-width: 200px;
@@ -29,7 +29,7 @@ p{
     font-size: 20px;
 }
 
-/* List styling */
+
 .footer-section h2 {
   margin-bottom: 10px;
   font-size: 18px;
@@ -46,7 +46,7 @@ p{
   margin: 30px 0;
 }
 
-/* Bottom text */
+
 .footer-bottom {
   margin-top: 30px;
   text-align: center;
@@ -55,7 +55,7 @@ p{
   border-top: solid 1px;
 }
 
-/* Social media */
+
 .social-icons a {
   color: #ffffff;
   text-decoration: none;
@@ -66,7 +66,7 @@ p{
   text-decoration: underline;
 }
 
-/* Responsive stacking on smaller screens */
+
 @media (max-width: 768px) {
   .footer-top {
     flex-direction: column;

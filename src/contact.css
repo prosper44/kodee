@@ -35,7 +35,6 @@
   border-radius: 10px;
 }
 
-/* Responsive for smaller screens */
 @media (max-width: 768px) {
   .divss {
     flex-direction: column;
