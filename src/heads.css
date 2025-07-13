@@ -50,8 +50,8 @@
 
     position: absolute;
     top: -500px; 
-    left: 550px;
-    
+    right: 10px;
+    left: auto;
     height: 45vh;
     text-align: center;
     z-index: 10;
