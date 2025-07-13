@@ -15,8 +15,8 @@ function Gallery() {
   return (
     <div >
       <div style={{marginTop:'20px'}}>
-        <p style={{color:'#bdbdbd', fontSize:'100px', lineHeight:'1px'}} >Photo</p>
-        <h1 style={{color:'#333333', fontSize:'100px', lineHeight:'-3px'}} >Gallery</h1>
+        <p style={{color:'#bdbdbd', fontSize:'50px', lineHeight:'1px'}} >Photo</p>
+        <h1 style={{color:'#333333', fontSize:'50px', lineHeight:'-3px'}} >Gallery</h1>
       </div>
       <div className='gallery-grid' >
         <img   src={gallery1} alt="" />
