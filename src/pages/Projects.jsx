@@ -10,8 +10,8 @@ const Projects = () => {
 
 
          <div >
-              <p style={{color:'#bdbdbd', fontSize:'100px', lineHeight:'1px'}} >Our</p>
-              <h1 style={{color:'#333333', fontSize:'100px', lineHeight:'-3px'}} >Projects</h1>
+              <p style={{color:'#bdbdbd', fontSize:'50px', lineHeight:'1px'}} >Our</p>
+              <h1 style={{color:'#333333', fontSize:'50px', lineHeight:'-3px'}} >Projects</h1>
         </div>
       <div style={{placeItems:'center', borderTop:'solid 1px'}}>
        
